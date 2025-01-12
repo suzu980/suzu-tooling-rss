@@ -1,0 +1,10 @@
+{
+    "rest-client.environmentVariables": {
+        "$shared": {},
+        "development": {
+            "TestAddress": "",
+            "TestTitle": "",
+            "TestDescription": ""
+        }
+    }
+}
