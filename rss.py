@@ -31,7 +31,7 @@ def execute_db(query, args=()):
     return {"success": True, "rows_affected": row_count}
 
 
-def retrieveRSS(url):
+def retrieveRSS(url: str):
     result = feedparser.parse(url)
     return result
 
